@@ -10,3 +10,6 @@ Purpose: The broad purpose of this project is to narrow down a list of materials
 
 --Phase 3: Gobi collection integration. Ultimatley we would like to streamline the order, if approved, within our GOBI instance for our organization. 
 
+******************************************************************************************************************
+[programming notes]
+within the extract.py file one of the imports is 'dbConnect'. as this file contains our organization's database address and information. The connection string file that I've uploaded is 'GP_dbConnect' it contains the string patterns but none of the organization data. to use this file you must first enter your relivent database information, and modify the import statment in extract.py. 
